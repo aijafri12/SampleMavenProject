@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Ebayprojerct"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.ee.page.MyhomePage"/>
+        <listEntry value="com.stepdef.Searchdef"/>
+        <listEntry value="com.stepdef.DropdownStepdef"/>
+        <listEntry value="com.common.javaPrac"/>
+        <listEntry value="com.common.DropdownMenu"/>
+        <listEntry value="com.common.Base23"/>
+        <listEntry value="com.common.ScreenShot"/>
+        <listEntry value="com.common.InterFace3"/>
+        <listEntry value="com.testrunner.DropdownTestRunner"/>
+        <listEntry value="com.common.JavaInter"/>
+        <listEntry value="Jcollection"/>
+        <listEntry value="Collection"/>
+        <listEntry value="com.common.Dropdown"/>
+        <listEntry value="com.testrunner.TestRunner"/>
+        <listEntry value="com.ee.page.DropDown1"/>
+        <listEntry value="com.common.MouseOver"/>
+        <listEntry value="com.common.BaseCrossBrowser"/>
+        <listEntry value="com.common.JvInterface"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

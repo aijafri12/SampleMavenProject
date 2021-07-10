@@ -1,0 +1,29 @@
+package tutorial12;
+
+public class Example {
+
+	public static void age() {
+		
+		
+		int age=29;
+		age =age+7;
+		System.out.println(age);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+Feature: Sign in to ebay
+Scenario: Sign in to ebay to acces my ebay account 
+    Given I am on ebay 
+    When I click on sign in
+    And  Enter my user id
+    And Enter my password
+    And Submit
+    Then Sign in should be successfull
+  

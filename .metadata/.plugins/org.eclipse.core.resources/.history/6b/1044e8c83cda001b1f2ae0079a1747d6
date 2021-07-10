@@ -1,0 +1,32 @@
+package com.Google;
+
+public class JDVCConnections {
+
+	public static void main(String[] args) {
+
+		
+		try {
+			
+		
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			System.out.println("Driver is registered with sql");
+		
+		
+		
+		
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+		
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

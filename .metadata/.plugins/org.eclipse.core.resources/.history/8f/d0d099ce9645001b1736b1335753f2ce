@@ -1,0 +1,41 @@
+package tutorial12;
+
+public class SmallestNumber {
+
+	public static void main(String[] args) {
+	
+		int x[]= {23,12,45,54,67,78,87,881,910};
+		
+		int max =x[0];
+		int secmax=x[0];
+		
+		for(int i =0;i<x.length;i++ ) {
+			
+			if(max>x[i]) {
+				secmax=max;
+				
+				max=x[i];
+					}
+			else if(secmax<x[i]) {
+				
+				secmax=x[i];
+				
+				
+				
+			}
+			
+			
+			
+		}
+		System.out.println(max);
+		System.out.println(secmax);
+		
+		
+		
+	
+	
+	
+	
+	
+}
+}

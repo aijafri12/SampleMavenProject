@@ -1,0 +1,40 @@
+
+class PrimeNumber {
+
+	public static void main(String[] args) { // a number is divisible by 1 only  and itself its a prime number
+
+		int x=15;
+		int count=100;
+		boolean prime =false;
+		
+		for (int i=2; i<count;i++) {
+			
+			if (x%i==0) {
+				
+				prime=false;
+				
+				break;
+				
+				
+		}
+			
+		
+		}	if(prime==true)
+			System.out.println("it is  prime number");
+		
+		else 
+			System.out.println("it is not a prime number");
+				
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	}

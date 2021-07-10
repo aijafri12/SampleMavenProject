@@ -1,0 +1,32 @@
+package com.Google;
+
+public class JDVCConnections {
+
+	public static void main(String[] args) {
+
+		// Add mysql jar files to the library otherwise it will throw no class found exceptions
+		try {
+			
+		// copy from open source 
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			System.out.println("Driver is registered with sql");
+		
+		
+		
+		
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+		
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="incremental" value="false"/>
+		<list key="findhistory">
+			<item value="&#x09;&#x09;// Write code here that turns the phrase above into concrete actions"/>
+			<item value="// Write code here that turns the phrase above into concrete actions"/>
+			<item value="F"/>
+			<item value="&#x09;    // Write code here that turns the phrase above into concrete actions"/>
+			<item value="    // Write code here that turns the phrase above into concrete actions"/>
+			<item value="throw new PendingException();"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="561"/>
+		<item key="DIALOG_Y_ORIGIN" value="145"/>
+		<item key="DIALOG_WIDTH" value="294"/>
+		<item key="DIALOG_HEIGHT" value="393"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="484"/>
+		<item key="DIALOG_Y_ORIGIN" value="308"/>
+	</section>
+</section>

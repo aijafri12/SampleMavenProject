@@ -1,0 +1,10 @@
+
+
+Feature:  Amazon log in
+Scenario: User  be able sign in successfully
+Given Launch browser
+When click on user button 
+And valid user name 
+And enter valid password 
+And click submit button
+Then user be able to sign in successfully

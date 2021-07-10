@@ -1,0 +1,38 @@
+package com.Google;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JDVCConnections {
+
+	public static void main(String[] args) throws SQLException {
+
+		// step 1: Register a jdvc driver 
+		
+		// Add mysql jar files to the library otherwise it will throw no class found exceptions
+		try {
+			
+		// copy from open source 
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			System.out.println("Driver is registered with sql");
+		
+		// step 2: establish a connecton
+			
+		DriverManager.getConnection("jdbc:mysql://localhost:3306/sql_hr","root","root");
+		System.out.println("Connection established");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+		
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

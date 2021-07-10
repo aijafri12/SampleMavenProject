@@ -1,0 +1,39 @@
+package tutorial12;
+
+public class SmallestNumber {
+
+	public static void main(String[] args) {
+		
+	long n1=0;
+	
+	long n2=1;
+	
+	System.out.println(n1 + " "+ n2);
+		
+		int count =15;
+		
+		for (int i=0 ; i < count; i++) {
+			
+			long n3=n1+n2;
+			
+			n1=n2;
+			 
+			 
+			 n2=n3;
+			 
+			 
+			 System.out.println(n3);
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

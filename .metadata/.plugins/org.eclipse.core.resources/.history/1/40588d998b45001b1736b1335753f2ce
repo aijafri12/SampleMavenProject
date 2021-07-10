@@ -1,0 +1,24 @@
+package tutorial12;
+
+public class SmallestNumber {
+
+	public static void main(String[] args) {
+		
+	long n1=0;
+	
+	long n2=1;
+	
+	System.out.println(n1 + " "+ n2);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

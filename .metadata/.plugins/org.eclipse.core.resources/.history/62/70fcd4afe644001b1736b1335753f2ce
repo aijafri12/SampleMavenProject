@@ -1,0 +1,29 @@
+package tutorial12;
+
+public class SmallestNumber {
+
+	public static void main(String[] args) {
+
+		int x[]= {34,333,23,451,231,22,44};
+		
+		for(int i =0; i<x.length;i++) {
+			
+			if(x[i]%2==0) 
+				
+				System.out.println(x[i] + " it is a even number");
+			
+			else
+				System.out.println(x[i]+ " it is a odd number");
+				
+				
+		
+			
+			
+		}
+		
+		
+		
+	
+	}
+
+}
